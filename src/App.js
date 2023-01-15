@@ -37,5 +37,5 @@ function App() {
 export default App;
 
 
-// "proxy": "https://e-commerce-gamma-lime.vercel.app/"
+// "proxy": "https://e-commerce-gamma-lime.vercel.app"
 // "proxy": "http://localhost:8200"
