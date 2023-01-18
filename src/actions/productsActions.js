@@ -4,8 +4,8 @@ import { productsFail, productsSuccess, productsRequest } from '../slices/produc
 export const getProducts = (keyword = null, price = [], category = null, currentPage = 1) => async (dispatch) => {
     try {  
         dispatch(productsRequest()) 
-        // let link = `https://e-commerce-gamma-lime.vercel.app/api/v1/products?page=${currentPage}`;
-        let link = `/api/v1/products?page=${currentPage}`;
+        let link = `https://akj-ecommserver.onrender.com/api/v1/products?page=${currentPage}`;
+        // let link = `/api/v1/products?page=${currentPage}`;
         if(keyword) {
             link += `&keyword=${keyword}`;
         }
