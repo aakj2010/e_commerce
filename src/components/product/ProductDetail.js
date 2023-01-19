@@ -13,7 +13,7 @@ export default function ProductDetail() {
 
     useEffect(() => {
         dispatch(getProduct(id))
-    }, [])
+    }, [dispatch, id])
 
     return (
         <Fragment>

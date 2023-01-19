@@ -9,9 +9,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import ProductDetail from './components/product/ProductDetail';
 import Search from './components/product/ProductSearch';
 
-const homeLoader = {
-  price: [1, 555]
-}
+// const homeLoader = {
+//   price: [1, 555]
+// }
 
 function App() {
   return (
